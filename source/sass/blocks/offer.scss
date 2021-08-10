@@ -1,0 +1,30 @@
+.offer {
+  background-color: #fff;
+  background-image: url(../../img/offer.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 27px;
+  margin-bottom: 22px;
+  text-align: center;
+}
+
+.offer__heading {
+  color: #fff;
+  font-family: $oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  margin-bottom: 25px;
+}
+
+.offer__description {
+  font-family: $oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 29px;
+}
