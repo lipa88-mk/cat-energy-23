@@ -1,0 +1,24 @@
+.steps {
+  margin-bottom: 42px;
+}
+
+.steps__title {
+  font-family: $oswald;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+  margin-bottom: 38px;
+}
+
+.steps__list {
+  list-style: none;
+  font-family: $arial;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+.steps__item {
+  padding-left: 80px;
+  margin-bottom: 27px;
+}
