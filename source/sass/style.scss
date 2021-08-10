@@ -1,24 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import "global/vars.scss";
+@import "global/mixins.scss";
 
-button {
-  font-family: inherit;
-  border: none;
-  background-color: transparent;
-}
+// @import "normalize.scss";
+@import "global/fonts.scss";
+@import "global/main.scss";
 
-.page {
-  max-width: 320px;
-  outline: 1px solid #00ff00;
-}
-
-.header {
-  background-color: #ffffff;
-  padding: 10px 20px 18px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+@import "blocks/center.scss";
+@import "blocks/page.scss";
+@import "blocks/header.scss";
+@import "blocks/nav.scss";

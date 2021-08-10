@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  background-color: transparent;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -99999px;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  visibility: hidden;
+  clip: rect(0 0 0 0);
+}

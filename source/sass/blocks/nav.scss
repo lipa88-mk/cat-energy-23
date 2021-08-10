@@ -1,0 +1,30 @@
+.nav {
+  background-color: #fff;
+}
+.nav__list {
+  list-style: none;
+  text-align: center;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+
+.nav__link {
+  font-family: $oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+  padding: 22px 20px 24px 20px;
+  display: block;
+  border-top: 1px solid #E6E6E6;
+
+  &:hover {
+    opacity: 0.6;
+  }
+  &:active {
+    opacity: 0.3;
+  }
+}
