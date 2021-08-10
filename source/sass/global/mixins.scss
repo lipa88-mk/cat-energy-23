@@ -1,0 +1,27 @@
+@mixin title {
+  font-family: $oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+}
+
+@mixin text ($size: 14px, $line: 18px) {
+  font-family: $arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $size;
+  line-height: $line;
+  color: $dark-grey;
+}
+
+@mixin uppertext ($size:14px, $lineheight: 20px) {
+  font-family: $oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $size;
+  line-height: $lineheight;
+  text-transform: uppercase;
+  color: #000000;
+}

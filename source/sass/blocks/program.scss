@@ -11,12 +11,7 @@
 }
 
 .program__text {
-  font-family: $arial;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 18px;
-  color: $dark-grey;
+  @include text;
   padding-right: 10px;
   padding-bottom: 23px;
   border-bottom: 1px solid #D9D9D9;
