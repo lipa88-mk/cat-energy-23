@@ -1,0 +1,16 @@
+.address {
+  padding-top: 28px;
+  padding-bottom: 26px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.address__title {
+  @include uppertext (16px, 20px);
+  color: #111111;
+}
+
+.address__text {
+  @include text (14px, 20px);
+  margin-bottom: 0px;
+}
