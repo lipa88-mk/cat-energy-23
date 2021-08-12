@@ -1,0 +1,7 @@
+// .feedback {
+
+// }
+.feedback__text {
+  @include uppertext(14px, 18px);
+  margin-bottom: 17px;
+}
