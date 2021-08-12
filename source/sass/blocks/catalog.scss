@@ -1,7 +1,26 @@
 .catalog {
   border-top: 1px solid #EBEBEB;
+  margin-bottom: 25px;
 }
 
 .catalog__list {
   list-style: none;
 }
+
+.catalog__item {
+  padding-top: 21px;
+  padding-bottom: 25px;
+  position: relative;
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: calc(100% + #{$mobile-padding} * 2);
+    height: 1px;
+    left: -$mobile-padding;
+    bottom: 0px;
+    background-color: #EBEBEB;
+  }
+}
+

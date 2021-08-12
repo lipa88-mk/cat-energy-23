@@ -1,0 +1,50 @@
+.additional__title {
+  @include title (24px, 24px);
+  margin-bottom: 36px;
+  display: inline-block;
+  background-color: #fff;
+  padding-right: 22px;
+  position: relative;
+
+  &::before {
+    content: '';
+    width: 122%;
+    height: 2px;
+    background-color: $green;
+    position: absolute;
+    z-index: -10;
+    top: 15px;
+  }
+}
+
+.additional__list {
+  list-style: none;
+  border-top: 1px solid #CDCDCD;
+  margin-bottom: 34px;
+}
+
+.additional__item {
+  padding-top: 13px;
+  padding-bottom: 19px;
+  border-bottom: 1px solid #CDCDCD;
+}
+
+.additional__gift {
+  background-color: $green;
+  background-image: url(../../img/gift-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  min-height: 289px;
+  margin-bottom: 35px;
+
+  padding-top: 186px;
+  padding-left: 58px;
+  padding-right: 61px;
+  padding-bottom: 43px;
+  text-align: center;
+  color: #ffffff;
+  font-family: $arial;
+  font-size: 16px;
+  line-height: 20px;
+}
