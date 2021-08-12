@@ -10,24 +10,27 @@
 @import "blocks/page.scss";
 @import "blocks/header.scss";
 @import "blocks/nav.scss";
-
 @import "blocks/main.scss";
-@import "blocks/offer.scss";
 
+//index
+@import "blocks/offer.scss";
 @import "blocks/programs.scss";
 @import "blocks/program.scss";
-
 @import "blocks/steps.scss";
-
 @import "blocks/example.scss";
 @import "blocks/stats.scss";
 @import "blocks/slider.scss";
 @import "blocks/toggle.scss";
 
+// footer
 @import "blocks/address.scss";
 @import "blocks/map.scss";
 @import "blocks/footer.scss";
 
-
+// catalog
+@import "blocks/catalog.scss";
+@import "blocks/product.scss";
+@import "blocks/properties.scss";
+@import "blocks/additional.scss";
 
 
