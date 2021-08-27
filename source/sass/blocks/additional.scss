@@ -1,20 +1,6 @@
 .additional__title {
-  @include title (24px, 24px);
   margin-bottom: 36px;
-  display: inline-block;
-  background-color: #fff;
-  padding-right: 22px;
-  position: relative;
-
-  &::before {
-    content: '';
-    width: 122%;
-    height: 2px;
-    background-color: $green;
-    position: absolute;
-    z-index: -10;
-    top: 15px;
-  }
+  @include title (24px, 24px);
 }
 
 .additional__list {
