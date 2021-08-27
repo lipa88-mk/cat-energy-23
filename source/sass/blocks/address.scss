@@ -5,6 +5,11 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.address--inner-page {
+  background-color: $light-grey;
+}
+
+
 .address__title {
   @include uppertext (16px, 20px);
   color: #111111;

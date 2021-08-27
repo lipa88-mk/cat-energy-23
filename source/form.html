@@ -44,28 +44,29 @@
             </div>
           </fieldset>
 
-          <fieldset class="order__group">
+          <fieldset class="order__group order__group--program">
             <h2 class="visually-hidden">Выбор программы</h2>
             <div>
-              <input class="order__field order__field--radio" id="program-slim" type="radio" name="program" value="slim" checked>
-              <label for="program-slim" class="order__label">похудение</label>
+              <input disabled class="order__field order__field--radio" id="program-slim" type="radio" name="program" value="slim" checked>
+              <label for="program-slim" class="order__label order__label--radio">похудение</label>
             </div>
 
             <div>
               <input class="order__field order__field--radio" id="program-growth" type="radio" name="program" value="growth">
-              <label for="program-growth" class="order__label">Набор массы</label>
+              <label for="program-growth" class="order__label order__label--radio">Набор массы</label>
             </div>
 
             <div>
               <input class="order__field order__field--radio" id="program-advice" type="radio" name="program" value="advice">
-              <label for="program-advice" class="order__label">Не знаю (Нужен ваш совет)</label>
+              <label for="program-advice" class="order__label order__label--radio">Не знаю (Нужен ваш совет)</label>
             </div>
           </fieldset>
 
-          <fieldset class="order__group">
+          <fieldset class="order__group order__group--owner">
             <h2 class="order__title liner">
               <span class="liner__item">Контактные данные<br>(владельца кота)</span>
             </h2>
+
             <div class="order__row">
               <label class="order__label" for="mail">E-mail:<sup>*</sup></label>
               <input class="order__field" placeholder="кuklachev@gmail.com" id="mail" name="mail" type="email" required>
@@ -76,41 +77,40 @@
               <input class="order__field" placeholder="8 (960) 900-60-90" id="phone" name="phone" type="tel" required>
               <!-- pattern="\d [0-9] ([0-9]{3}) [0-9]{3}-[0-9]{2}-[0-9]{2}" -->
             </div>
-          </fieldset>
 
-          <fieldset class="order__group">
             <h2 class="order__title liner">
               <span class="liner__item">Комментарий</span>
             </h2>
+
             <div class="order__row">
-              <textarea class="order__field" placeholder="Расскажите обо всех повадках кота" name="comment" cols="30" rows="10" ></textarea>
+              <textarea class="order__field order__field--comment" placeholder="Расскажите обо всех повадках кота" name="comment" cols="31" rows="20" ></textarea>
             </div>
+
           </fieldset>
 
-
-          <fieldset class="order__group">
+          <fieldset class="order__group order__group--more">
             <h2 class="order__title liner">
               <span class="liner__item">Дополнительно</span>
             </h2>
 
             <div>
-              <input class="order__field order__field--checkbox" id="sugarfree" type="checkbox" name="additional" value="sugarfree" checked>
-              <label class="order__label" for="sugarfree" >сахарозаменитель</label>
+              <input disabled class="order__field order__field--checkbox" id="sugarfree" type="checkbox" name="additional" value="sugarfree" checked>
+              <label class="order__label order__label--checkbox" for="sugarfree" >сахарозаменитель</label>
             </div>
 
             <div>
               <input class="order__field order__field--checkbox" id="water" type="checkbox" name="additional" value="water" >
-              <label class="order__label" for="water" >питьевая вода</label>
+              <label class="order__label order__label--checkbox" for="water" >питьевая вода</label>
             </div>
 
             <div>
               <input class="order__field order__field--checkbox" id="milk" type="checkbox" name="additional" value="milk" >
-              <label class="order__label" for="milk" >молоко</label>
+              <label class="order__label order__label--checkbox" for="milk" >молоко</label>
             </div>
 
             <div>
               <input class="order__field order__field--checkbox" id="vitamins" type="checkbox" name="additional" value="vitamins" >
-              <label class="order__label" for="vitamins" >витамины</label>
+              <label class="order__label order__label--checkbox" for="vitamins" >витамины</label>
             </div>
 
           </fieldset>
@@ -122,7 +122,7 @@
       </section>
     </main>
 
-    <section class="address center">
+    <section class="address address--inner-page center">
       <h2 class="address__title">приглашаем к&nbsp;сотрудничеству дилеров!</h2>
       <div>
         <p class="address__text">ул. Большая Конюшенная, д. 19/8</p>
