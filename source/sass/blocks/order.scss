@@ -79,7 +79,6 @@
     height: 13px;
     background-color: $green;
     border-radius: 50%;
-    // border: 1px solid $green;
     position: absolute;
     top: 1px;
     left: 8.3px;
@@ -90,19 +89,15 @@
   display: none;
 }
 
-
 .order__field--radio:hover ~ .order__label--radio::before,
-.order__field--checkbox:hover ~ .order__label--checkbox::before
-{
+.order__field--checkbox:hover ~ .order__label--checkbox::before {
   border-color: #BABABA;
 }
 
 .order__field:disabled ~ .order__label--checkbox,
-.order__field:disabled ~ .order__label--radio
- {
+.order__field:disabled ~ .order__label--radio  {
   opacity: 0.3;
 }
-
 
 .order__field {
   @include uppertext(16px, 18px);
@@ -121,7 +116,6 @@
 .order__field--checkbox, .order__field--radio {
   display: none;
 }
-
 
 .order__label--checkbox {
   display: block;
@@ -159,7 +153,6 @@
 .order__field--checkbox:not(:checked) ~ .order__label--checkbox::after {
   display: none;
 }
-
 
 .order__btn {
   width: 100%;
