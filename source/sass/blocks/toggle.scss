@@ -1,0 +1,34 @@
+.toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 228px;
+  height: 40px;
+}
+
+.toggle__nav {
+  @include uppertext (16px, 20px);
+}
+
+.toggle__bar {
+  width: 84px;
+  height: 14px;
+  background-color: #ffffff;
+  border: 1px solid #cdcdcd;
+  border-radius: 6px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px 6px;
+  margin-right: 20px;
+  margin-left: 16px;
+}
+
+.toggle__control {
+  position: absolute;
+  width: 35px;
+  height: 6px;
+  border-radius: 6px;
+  background-color: $green;
+}

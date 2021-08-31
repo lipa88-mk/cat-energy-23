@@ -1,0 +1,24 @@
+.liner {
+  margin-left: -$mobile-padding;
+  margin-right: -$mobile-padding;
+  padding-left: $mobile-padding;
+  width: 100%;
+  position: relative;
+}
+
+.liner__item {
+  background-color: #ffffff;
+  padding-right: 23px;
+  display: inline-block;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: calc(100% + #{$mobile-padding});
+    height: 2px;
+    background-color: $green;
+    top: 15px;
+  }
+}

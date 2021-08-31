@@ -1,0 +1,14 @@
+.properties {
+  border: none;
+  outline: none;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.properties__cell {
+  width: 50%;
+}
+
+.properties__cell:nth-child(2) {
+  text-align: right;
+}

@@ -1,0 +1,19 @@
+.steps {
+  margin-bottom: 42px;
+}
+
+.steps__title {
+  @include title;
+  margin-bottom: 38px;
+}
+
+.steps__list {
+  list-style: none;
+
+  @include text;
+}
+
+.steps__item {
+  padding-left: 80px;
+  margin-bottom: 27px;
+}

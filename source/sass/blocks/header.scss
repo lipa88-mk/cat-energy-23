@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 14px;
+  position: relative;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.header__nav {
+  position: absolute;
+  z-index: 1000;
+  top: 100%;
+  left: 0;
+  width: 100%;
+
+  &--close {
+    display: none;
+  }
+
+  &--open {
+    display: block;
+  }
+}
