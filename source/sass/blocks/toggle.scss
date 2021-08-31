@@ -5,16 +5,16 @@
   width: 228px;
   height: 40px;
 }
+
 .toggle__nav {
   @include uppertext (16px, 20px);
-  // padding:
 }
 
 .toggle__bar {
   width: 84px;
   height: 14px;
-  background-color: #fff;
-  border: 1px solid #CDCDCD;
+  background-color: #ffffff;
+  border: 1px solid #cdcdcd;
   border-radius: 6px;
   position: relative;
   display: flex;

@@ -1,12 +1,11 @@
 .stats {
-  border: 1px solid #CDCDCD;
+  border: 1px solid #cdcdcd;
   border-radius: 3px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 14px;
-
 }
 
 .stats__title {
@@ -16,8 +15,9 @@
 .stats__desc {
   position: absolute;
   width: 87px;
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
   bottom: -20px;
   text-align: center;
+
   @include text(12px,12px);
 }

@@ -9,8 +9,10 @@
 
 .steps__list {
   list-style: none;
+
   @include text;
 }
+
 .steps__item {
   padding-left: 80px;
   margin-bottom: 27px;

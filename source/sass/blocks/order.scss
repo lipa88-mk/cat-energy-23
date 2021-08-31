@@ -16,7 +16,7 @@
   padding-left: $mobile-padding;
   padding-right: $mobile-padding;
   padding-bottom: 1px;
-  border: 1px solid #D9D9D9;
+  border: 1px solid #d9d9d9;
 }
 
 .order__group--owner {
@@ -33,6 +33,7 @@
 
 .order__title {
   margin-bottom: 35px;
+
   @include title(24px, 26px);
 }
 
@@ -49,7 +50,8 @@
   margin-right: 15px;
 }
 
-.order__label--radio, .order__label--checkbox {
+.order__label--radio,
+.order__label--checkbox {
   margin-right: 0;
 }
 
@@ -67,7 +69,7 @@
     height: 30px;
     background-color: #ffffff;
     border-radius: 50%;
-    border: 1px solid #CDCDCD;
+    border: 1px solid #cdcdcd;
     position: absolute;
     top: -8px;
     left: -1px;
@@ -91,20 +93,20 @@
 
 .order__field--radio:hover ~ .order__label--radio::before,
 .order__field--checkbox:hover ~ .order__label--checkbox::before {
-  border-color: #BABABA;
+  border-color: #bababa;
 }
 
 .order__field:disabled ~ .order__label--checkbox,
-.order__field:disabled ~ .order__label--radio  {
+.order__field:disabled ~ .order__label--radio {
   opacity: 0.3;
 }
 
 .order__field {
   @include uppertext(16px, 18px);
-  border: 1px solid #E7E7E7;
+  border: 1px solid #e7e7e7;
   outline: none;
   padding: 13px 12px 12px 12px;
-  background-color: #fff;
+  background-color: #ffffff;
   flex-grow: 1;
 }
 
@@ -113,7 +115,8 @@
   max-height: 200px;
 }
 
-.order__field--checkbox, .order__field--radio {
+.order__field--checkbox,
+.order__field--radio {
   display: none;
 }
 
@@ -130,7 +133,7 @@
     width: 30px;
     height: 30px;
     background-color: #ffffff;
-    border: 1px solid #CDCDCD;
+    border: 1px solid #cdcdcd;
     position: absolute;
     left: 0;
     top: -6px;

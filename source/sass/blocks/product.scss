@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
   .product__name {
     width: 100%;
     text-align: center;
@@ -41,9 +42,11 @@
 .product__btn--light {
   background-color: $light-grey;
   color: $dark-grey;
+
   &:hover {
-    background-color: #EBEBEB;
+    background-color: #ebebeb;
   }
+
   &:active {
     color: rgba(68, 68, 68, 0.3);
   }

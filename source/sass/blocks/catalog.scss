@@ -1,5 +1,5 @@
 .catalog {
-  border-top: 1px solid #EBEBEB;
+  border-top: 1px solid #ebebeb;
   margin-bottom: 25px;
 }
 
@@ -13,13 +13,13 @@
   position: relative;
 
   &::after {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     width: calc(100% + #{$mobile-padding} * 2);
     height: 1px;
     left: -$mobile-padding;
-    bottom: 0px;
-    background-color: #EBEBEB;
+    bottom: 0;
+    background-color: #ebebeb;
   }
 }
