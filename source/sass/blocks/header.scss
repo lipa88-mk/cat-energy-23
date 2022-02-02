@@ -6,6 +6,15 @@
   padding-bottom: 14px;
   position: relative;
   border-bottom: 1px solid #d9d9d9;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    display: grid;
+    grid-template-columns: min-content min-content 1fr;
+    column-gap: 15px;
+  }
 }
 
 .header__nav {
@@ -14,12 +23,25 @@
   top: 100%;
   left: 0;
   width: 100%;
+  display: block;
 
-  &--close {
-    display: none;
+  @media (max-width: ($tablet-width - 0.1px)) {
+    &--close {
+      display: none;
+    }
   }
 
-  &--open {
-    display: block;
+  @media (min-width: $tablet-width) {
+    position: static;
+    justify-self: end;
+    width: auto;
+  }
+}
+
+.header__burger {
+  @include zero-button;
+
+  @media (min-width: $tablet-width) {
+    display: none;
   }
 }

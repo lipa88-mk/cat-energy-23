@@ -20,3 +20,10 @@
   @include title ($size, $lineheight);
   text-transform: uppercase;
 }
+
+@mixin zero-button {
+  font-family: inherit;
+  border: none;
+  padding: none;
+  background-color: transparent;
+}

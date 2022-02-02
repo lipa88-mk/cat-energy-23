@@ -6,8 +6,15 @@
   list-style: none;
   text-align: center;
   border-bottom: 1px solid #e6e6e6;
-}
 
+  @media (min-width: $tablet-width) {
+    text-align: left;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+  }
+}
 
 .nav__link {
   font-family: $oswald;
@@ -22,11 +29,30 @@
   display: block;
   border-top: 1px solid #e6e6e6;
 
+  @media (min-width: $tablet-width) {
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 10px 0px;
+    position: relative;
+  }
+
   &:hover {
     opacity: 0.6;
   }
 
   &:active {
     opacity: 0.3;
+  }
+
+  &--current::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0px;
+    left: 0px;
+    background-color: $green;
   }
 }
