@@ -4,7 +4,7 @@
   padding-right: $mobile-padding;
 
   @media (min-width: $tablet-width) {
-    min-width: $tablet-width;
+    // min-width: $tablet-width;
     padding-left: $tablet-padding;
     padding-right: $tablet-padding;
   }
