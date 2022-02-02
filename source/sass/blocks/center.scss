@@ -1,5 +1,13 @@
 .center {
-  width: $mobile-width;
+  min-width: $mobile-width;
   padding-left: $mobile-padding;
   padding-right: $mobile-padding;
+
+  @media (min-width: $tablet-width) {
+    width: $tablet-width;
+    padding-left: $tablet-padding;
+    padding-right: $tablet-padding;
+  }
 }
+
+
