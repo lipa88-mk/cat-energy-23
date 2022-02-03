@@ -1,6 +1,5 @@
 @mixin text ($size: 14px, $line: 18px) {
   font-family: $arial;
-  font-style: normal;
   font-weight: normal;
   font-size: $size;
   line-height: $line;
@@ -9,7 +8,6 @@
 
 @mixin title ($size: 36px, $line: 40px) {
   font-family: $oswald;
-  font-style: normal;
   font-weight: normal;
   font-size: $size;
   line-height: $line;
