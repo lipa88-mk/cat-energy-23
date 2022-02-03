@@ -2,8 +2,33 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media (min-width: $tablet-width) {
+    background-color:  #EAEAEA;
+    margin-left: -$tablet-padding;
+    margin-right: -$tablet-padding;
+    padding-bottom: 55px;
+    padding-left: calc(50% - 590px / 2);
+    padding-right: calc(50% - 590px / 2);
+  }
 }
 
 .slider__picture {
   margin-bottom: 23px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: -170px;
+    width: 592px;
+    height: 511px;
+  }
+}
+
+.slider__toggle {
+  width: 228px;
+  height: 40px;
+
+  @media (min-width: $tablet-width) {
+    width: 100%;
+    height: auto;
+  }
 }

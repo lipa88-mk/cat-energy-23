@@ -6,10 +6,19 @@
   justify-content: center;
   align-items: center;
   padding: 14px;
+
+  @media (min-width: $tablet-width) {
+    min-width: 162px;
+  }
 }
 
 .stats__title {
   @include uppertext (24px, 24px);
+
+  @media (min-width: $tablet-width) {
+    font-size: 30px;
+    line-height: 37px;
+  }
 }
 
 .stats__desc {
@@ -20,4 +29,17 @@
   text-align: center;
 
   @include text(12px,12px);
+
+  @media (min-width: $tablet-width) {
+    font-size: 14px;
+    line-height: 14px;
+    background-color: #ffffff;
+    padding: 0 8px;
+    min-width: fit-content;
+    bottom: -7px;
+
+    & br {
+      display: none;
+    }
+  }
 }
